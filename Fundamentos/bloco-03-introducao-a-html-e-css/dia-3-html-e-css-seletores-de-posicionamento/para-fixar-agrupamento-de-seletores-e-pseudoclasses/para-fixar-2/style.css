@@ -1,0 +1,25 @@
+div:hover {
+    border-style: solid;
+}
+.primary-color{ 
+    background-color: blue;
+    font-family: cursive;
+    font-style: italic;
+}
+.secondary-color {
+    background-color: cornflowerblue;
+    font-size: 32px;
+}
+.complementary-color {
+    background-color: cadetblue;
+    padding: 40px;
+    font-size: 45px;
+    font-style: italic;
+}
+.dark-color {
+    background-color: darkslategrey;
+}
+.bright-colour {
+    background-color: darkturquoise;
+    font-style: italic;
+}
