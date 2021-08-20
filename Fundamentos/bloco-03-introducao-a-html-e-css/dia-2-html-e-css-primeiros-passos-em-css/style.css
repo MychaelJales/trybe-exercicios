@@ -1,0 +1,29 @@
+h1 {
+    font-size: 65px; color: orange;
+    font-family: sans-serif;
+}
+p {
+    font-weight: 600; font-size: 3em;
+}
+#list {
+    background-color: aqua;
+}
+.p-and-ul {
+    background-color: aquamarine;
+}
+body {
+    font-size: 16px;
+}
+#lero-lero {
+    font-size: 16px; font-style: italic; line-height: 20px; text-align: justify;
+    text-decoration: blueviolet; font-family: 'Times New Roman', Times, serif;
+}
+#yellow {
+    background-color: yellow;
+}
+#red {
+    background-color: red;
+}
+#brown {
+    background-color: brown;
+}
