@@ -3,20 +3,20 @@
     position: absolute;
     z-index: 1;
   }
-  
+
   .goomba {
     width: 100px;
     position: absolute;
     top: 380px;
     z-index: 2;
   }
-  
+
   .baloon {
   position: absolute;
   top: 520px;
   left: 10px;
   }
-  
+
   .speach {
     font-size: 22px;
     position: absolute;
@@ -25,7 +25,7 @@
     z-index: 3;
     z-index: top;
   }
-  
+
   .bowser {
     width: 200px;
     position: absolute;
