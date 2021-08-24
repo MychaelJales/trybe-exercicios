@@ -1,0 +1,47 @@
+.top-phrases {
+    background-color: yellow;
+}
+.par {
+    color: green;
+}
+.impar {
+    text-transform: uppercase;
+}
+h1, h2, h3 {
+    color: red;
+}
+h1 em {
+    font-size: 40px;
+    border: 1px solid black;
+}
+li {
+    font-size: 20px;
+}
+li em {
+    font-weight: bold;
+}
+.language {
+    color: blue;
+}
+.java {
+    background-color: pink;
+}
+.major-allies li a:hover {
+    font-weight: bold;
+    text-decoration: none;
+    }
+.stack a:hover {
+    color: orange;
+}
+.w3s a:hover {
+    color: green;
+}
+.mdn a:hover {
+    color: black;
+}
+.devdocs a:hover {
+    color: yellow;
+}
+.trybe a:hover {
+    color: green;
+}
