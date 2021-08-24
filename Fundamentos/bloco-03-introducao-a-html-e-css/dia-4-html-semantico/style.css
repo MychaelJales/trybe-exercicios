@@ -15,9 +15,15 @@ header h1 {
   background-color: lightskyblue;
   margin: 0px;
   padding-top: 20px;
+  text-align: center;
+}
+.nav a {
+  text-decoration: none;
+  color: black;
 }
 .nav li {
     display: inline-block;
+    background-color: lightslategray;
     text-align: center;
     width: 170px;
     border-style: solid;
