@@ -1,0 +1,70 @@
+body {
+  background-color: lightskyblue;
+}
+header h1 {
+    text-align: center;
+    font-size: 150%;
+    background-color: lightslategrey;
+    border-style: solid;
+    border-radius: 25%;
+    border-color: crimson;
+    margin: 0px;
+    padding: 20px;
+}
+.nav{
+  background-color: lightskyblue;
+  margin: 0px;
+  padding-top: 20px;
+  padding-bottom: 5px;
+  text-align: center;
+}
+.nav a {
+  text-decoration: none;
+  color: black;
+}
+.nav li {
+    display: inline-block;
+    background-color: lightslategray;
+    text-align: center;
+    width: 170px;
+    border-style: solid;
+    border-radius: 25%;
+    border-color: crimson;
+}
+.article-complete {
+  border-style: groove;
+  display: inline-block;
+  width: 75%;
+}
+.table-1 {
+  font-size: 12px;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+.facts h1 {
+  background-color: lightslategrey;
+  padding: 10px;
+  border-radius: 15%;
+  text-align: center;
+}
+.article-complete img {
+  width: 300px;
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+}
+.article-complete p {
+  text-align: justify;
+}
+.article-complete p, h2, h3, h4 {
+  padding-left: 20px;
+  padding-right: 35px;
+}
+.adjascent {
+  float: right;
+  padding: 10px;
+  border-style: groove;
+  vertical-align: top;
+  width: 20%;
+}
