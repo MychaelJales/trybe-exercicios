@@ -64,3 +64,17 @@ for (let index = 1; index < n + 1; index += 1) {
 
 //exercicio 4
 //Depois, faça uma pirâmide com n asteriscos de base: 
+
+let linha4 = '';
+
+for (let index = n; index >= 1; index -= 2) {
+  linha4 = '';
+  for (let index2 = 1; index2 <= n; index2 += 1) {
+    if (index2 < index/2) {
+      linha4 += space;
+    } else if ((index2 > index/2) && (index2 < index/2 + 1 )) {
+      linha4 += asterisco;
+    }
+  }
+  console.log(linha4)
+}
