@@ -2,7 +2,7 @@
 //exercicio 1
 //Para o primeiro exercício de hoje, faça um programa que, dado um valor n qualquer, seja n > 1 , imprima na tela um quadrado feito de asteriscos de lado de tamanho n . Por exemplo: 
 
-let n = 5;
+let n = 10;
 
 
 let asterisco = '*';
@@ -67,13 +67,17 @@ for (let index = 1; index < n + 1; index += 1) {
 
 let linha4 = '';
 
-for (let index = n; index >= 1; index -= 2) {
+for (let index = n; index >= 0; index -= 2) {
   linha4 = '';
   for (let index2 = 1; index2 <= n; index2 += 1) {
-    if (index2 < index/2) {
+    if (index2 <= index/2) {
       linha4 += space;
-    } else if ((index2 > index/2) && (index2 < index/2 + 1 )) {
-      linha4 += asterisco;
+    } else if ((index2 > index/2) && (index2 <= n - parseInt(index/2)) ) {
+      //for (let index3 = 1; index3 <= n; index3 += 2) {
+        linha4 += asterisco
+      //}
+    } else {
+      linha4 += space;
     }
   }
   console.log(linha4)
