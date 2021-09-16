@@ -10,4 +10,3 @@ for (let index = 0; index < statesBr.length; index += 1) {
   createSelected.innerText = statesBr[index];
   stateSelected.appendChild(createSelected);
 }
-
