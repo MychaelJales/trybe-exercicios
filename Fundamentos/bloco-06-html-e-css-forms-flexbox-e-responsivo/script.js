@@ -1,4 +1,4 @@
-
+let picker = new Pikaday({ field: document.getElementById('datepicker') });
 
 const stateSelected = document.getElementById('state');
 
@@ -10,4 +10,3 @@ for (let index = 0; index < statesBr.length; index += 1) {
   createSelected.innerText = statesBr[index];
   stateSelected.appendChild(createSelected);
 }
-
