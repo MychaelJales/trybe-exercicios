@@ -1,0 +1,98 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Ubuntu';
+}
+
+.header-container {
+  background-color: rgb(36, 36, 36);
+  display: flex;
+  height: 60px;
+  justify-content: center;
+}
+
+#text-center {
+  font-size: 15px;
+}
+
+#text-singup {
+  font-size: 10px;
+}
+
+.header {
+  color: white;
+  display: flex;
+  width: 80%;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header-img {
+  width: 60px;
+}
+
+.container-text {
+  display: flex;
+  justify-content: center;
+  height: 30px;
+  align-items: center;
+}
+
+.gallery {
+  display: flex;
+  justify-content: center;
+}
+
+.gallery-container {
+  display: flex;
+  flex-wrap: wrap;
+  width: 590px;
+}
+
+.gallery-container div {
+  background-color: rgb(231, 231, 231);
+  border-radius: 12px;
+  margin: 3px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  width: 190px;
+  height: 200px;
+  box-shadow: 3px 2px 2px rgb(70, 70, 70);
+}
+
+.gallery-img {
+  width: 150px;
+}
+
+.social-img {
+  width: 25px;
+}
+
+.footer {
+  display: flex;
+  justify-content: center;
+}
+
+.footer-container {
+  width: 190px;
+  height: 60px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+hr {
+  width: 190px;
+  height: 3px;
+}
+
+.social-container{
+  display: flex;
+  align-content: space-between;
+  justify-content: space-between;
+  width: 60px;
+}
